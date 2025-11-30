@@ -39,14 +39,15 @@ export function Navbar() {
         <Group>
           <Group ml={50} gap={5} className={styles.links} visibleFrom="sm">
             {items}
-          </Group>
+         
           <Autocomplete
-            className={styles.search}
+            className={styles.search} 
             placeholder="Search"
             leftSection="icon"
             data={['React', 'Angular', 'Vue', 'Next.js', 'Riot.js', 'Svelte', 'Blitz.js']}
             visibleFrom="xs"
           />
+           </Group>
         </Group>
       </div>
     </header>
