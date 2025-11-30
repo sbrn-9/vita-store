@@ -3,6 +3,7 @@
 import { Autocomplete, Burger, Group , Text} from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 // import { MantineLogo } from '@mantinex/mantine-logo';
+import {Search} from 'lucide-react';
 import React from 'react';
 import styles from './css/navbar.module.css';
 
@@ -43,7 +44,7 @@ export function Navbar() {
           <Autocomplete
             className={styles.search} 
             placeholder="Search"
-            leftSection="icon"
+            leftSection={<Search size={16} color='#ffff'/>}
             data={['React', 'Angular', 'Vue', 'Next.js', 'Riot.js', 'Svelte', 'Blitz.js']}
             visibleFrom="xs"
           />
