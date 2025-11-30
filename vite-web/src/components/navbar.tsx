@@ -1,9 +1,8 @@
-"use client"; // <-- añade esto en la primera línea del archivo
+"use client"; 
 
 import { Autocomplete, Burger, Group , Text} from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
-// import { MantineLogo } from '@mantinex/mantine-logo';
-import {Search} from 'lucide-react';
+import { Leaf} from 'lucide-react';
 import React from 'react';
 import styles from './css/navbar.module.css';
 
@@ -33,21 +32,12 @@ export function Navbar() {
       <div className= {styles.inner}>
         <Group>
           <Burger opened={opened} onClick={toggle} size="sm" hiddenFrom="sm" />
-          <Text>Vita</Text>
-          {/* <MantineLogo size={28} /> */}
+          <Leaf size={28} color="#ffff" width={40}/>
         </Group>
 
         <Group>
           <Group ml={50} gap={5} className={styles.links} visibleFrom="sm">
             {items}
-         
-          <Autocomplete
-            className={styles.search} 
-            placeholder="Search"
-            leftSection={<Search size={16} color='#ffff'/>}
-            data={['React', 'Angular', 'Vue', 'Next.js', 'Riot.js', 'Svelte', 'Blitz.js']}
-            visibleFrom="xs"
-          />
            </Group>
         </Group>
       </div>
