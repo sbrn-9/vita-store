@@ -1,6 +1,6 @@
 "use client"; 
 
-import { Autocomplete, Burger, Group , Text} from '@mantine/core';
+import { Burger, Group, Text} from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import { Leaf} from 'lucide-react';
 import React from 'react';
@@ -30,9 +30,10 @@ export function Navbar() {
   return (
     <header className={styles.header}>
       <div className= {styles.inner}>
-        <Group>
+        <Group className={styles.logo}>
           <Burger opened={opened} onClick={toggle} size="sm" hiddenFrom="sm" />
           <Leaf size={28} color="#ffff" width={40}/>
+          <Text>Vida Saludable</Text>
         </Group>
 
         <Group>
