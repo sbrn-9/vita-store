@@ -1,0 +1,19 @@
+.container{
+    background-image: url('/header-image.jpg'); /* 1. Define la imagen de fondo */
+    background-size: cover;               /* 2. Escala la imagen para cubrir todo el área */
+    background-repeat: no-repeat;         /* 3. Evita que la imagen se repita */
+    background-position: center;          /* 4. Centra la imagen */
+    background-attachment: fixed;         /* (Opcional) Mantiene la imagen fija al hacer scroll */
+    height: 90vh;                        /* (Opcional) Asegura que el body ocupe toda la altura visible */
+    margin: 0;                            /* Elimina márgenes por defecto */
+    padding: 0; 
+}
+
+.title{
+
+}
+
+.image{
+
+}
+
