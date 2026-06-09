@@ -28,7 +28,8 @@ export function Navbar() {
   ));
 
   return (
-    <header className={styles.header}>
+    <header className={styles.glass}>
+      <div className={styles.img}></div>
       <div className= {styles.inner}>
         <Group className={styles.logo}>
           <Burger opened={opened} onClick={toggle} size="sm" hiddenFrom="sm" />

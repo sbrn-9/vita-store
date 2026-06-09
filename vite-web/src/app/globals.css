@@ -14,6 +14,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+     
 }
 
 body {
@@ -23,6 +24,13 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    background-image: url('/header-image.jpg'); /* 1. Define la imagen de fondo */
+    background-size: cover;               /* 2. Escala la imagen para cubrir todo el área */
+    background-repeat: no-repeat;         /* 3. Evita que la imagen se repita */
+    background-position: center;          /* 4. Centra la imagen */
+    background-attachment: fixed;         /* (Opcional) Mantiene la imagen fija al hacer scroll */
+    height: 100vh;    
+  
 }
 
 * {
