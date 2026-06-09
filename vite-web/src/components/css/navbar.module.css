@@ -8,7 +8,9 @@
   background: rgba(36, 34, 34, 0.44);
   backdrop-filter: blur(5px);
   border-radius: 0;
-  position: relative;
+  position: sticky;
+  top: 0; /* Se quedará pegado cuando esté a 20px del borde superior */
+  z-index: 10; /* Asegura que esté por encima de otros elementos */
   overflow: hidden;
 }
 
