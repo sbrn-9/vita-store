@@ -12,10 +12,13 @@ export function Header() {
     <header >
       
       <Group className= {styles.container}>
-        
+        <Navbar />
+
+
+        <Group className={styles.TextContainer}>
         <Text className={styles.title}>EN VITA NOS CENTRAMOS EN TRAER LO MEJOR PARA TU INTERIOR</Text>
-        <Button className={styles.button}>Mas información</Button>
-        
+        <Button className={styles.button}>CONTACTANOS</Button>
+        </Group>
       </Group>
       
     </header>
