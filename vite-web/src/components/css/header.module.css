@@ -1,6 +1,6 @@
 .container {
   background: 
-    linear-gradient(rgba(36, 34, 34, 0.44), rgba(36, 34, 34, 0.44)), 
+    linear-gradient(rgba(14, 14, 14, 0.646), rgba(14, 14, 14, 0.646)), 
     url('/header.jpg'); /*se aplica un filtro de color por encima de la imagen*/
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,15 +26,23 @@
   font-size: 63px;
   font-weight: bold;
   text-align: left;
+  padding: 50px;
 }
 
 .button {
-  background-color: rgba(255,255,255,0.2);
-  color: #fff;
-  border: 30px;
+  background-color: #F5C945;
+  color: #000000;
+  border: 20px;
   border-radius: 20px;
-    padding: 10px 20px;
+  padding: 20px 30px;
 font-size: 16px;
-  backdrop-filter: blur(5px);
+font-weight: bold;
 }
+
+.button:hover {
+  background-color: #000000;
+  color: #F5C945;
+  transition: 0.3s ease;
+}
+
 

@@ -2,7 +2,7 @@
 
 import React from 'react';
 import styles from './css/header.module.css';
-import { Text, Group, Image, Button} from '@mantine/core';
+import { Text, Group, Button} from '@mantine/core';
 import { Navbar } from './navbar';
 
 
